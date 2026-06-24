@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lets Learn German – AI-Powered German Voice Tutor</title>
+  <meta name="description" content="Master conversational German through real-time AI voice roleplay. Interactive scenarios, instant grammar feedback, free to use.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================================ -->
+<!--  LANDING PAGE                                -->
+<!-- ============================================ -->
+<div id="landing-page">
+
+  <!-- Top announcement strip -->
+  <div class="top-strip">
+    🎉 Our AI tutor is completely free to use — no sign-up required!
+    <a href="#" id="strip-cta" class="strip-link">Start learning now →</a>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="logo">
+        <div class="logo-flag">🇩🇪</div>
+        <span class="logo-text">Lets Learn German</span>
+      </div>
+      <div class="nav-links">
+        <a href="#benefits">Features</a>
+        <a href="#scenarios">Scenarios</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#testimonials">Reviews</a>
+      </div>
+      <button class="btn-nav-cta" id="nav-launch-btn">Launch Tutor</button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero-inner">
+      <!-- Left content -->
+      <div class="hero-left">
+        <span class="hero-eyebrow">100% FREE AI LANGUAGE TUTOR</span>
+        <h1 class="hero-heading">
+          Speak German<br>
+          <span class="heading-highlight">Fluently &amp; Confidently</span>
+        </h1>
+        <p class="hero-body">
+          Practice real German conversations with an AI tutor that listens, corrects your grammar, translates instantly, and keeps you engaged — all in your browser.
+        </p>
+        <div class="hero-ctas">
+          <button class="btn-primary" id="hero-start-btn">Get Started Free</button>
+          <a href="#how-it-works" class="btn-ghost">
+            <span class="play-icon">▶</span> See how it works
+          </a>
+        </div>
+      </div>
+      <!-- Right content – visual card collage -->
+      <div class="hero-right">
+        <div class="hero-collage">
+          <div class="collage-card top-left">
+            <span class="card-emoji">☕</span>
+            <div>
+              <div class="card-label">Scenario</div>
+              <div class="card-val">Im Café</div>
+            </div>
+          </div>
+          <div class="collage-card top-right accent-yellow">
+            <span class="card-emoji">🗺️</span>
+            <div>
+              <div class="card-label">Scenario</div>
+              <div class="card-val">Wegbeschreibung</div>
+            </div>
+          </div>
+          <div class="collage-card bottom-left accent-teal">
+            <span class="card-emoji">🔑</span>
+            <div>
+              <div class="card-label">Scenario</div>
+              <div class="card-val">Hotel Check-In</div>
+            </div>
+          </div>
+          <div class="collage-card bottom-right">
+            <span class="card-emoji">💬</span>
+            <div>
+              <div class="card-label">Scenario</div>
+              <div class="card-val">Freies Gespräch</div>
+            </div>
+          </div>
+          <!-- centre badge -->
+          <div class="collage-center-badge">
+            <div class="badge-icon">🎙️</div>
+            <div class="badge-label">AI Tutor Active</div>
+          </div>
+        </div>
+        <!-- decorators -->
+        <div class="deco deco-circle-yellow"></div>
+        <div class="deco deco-circle-teal"></div>
+        <div class="deco deco-triangle"></div>
+        <div class="deco deco-squiggle">〰️</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STATS STRIP ── -->
+  <section class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="stat-num">4</span>
+        <span class="stat-label">Active Scenarios</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">100%</span>
+        <span class="stat-label">In-Browser Privacy</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">0ms</span>
+        <span class="stat-label">Server Latency</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num">Free</span>
+        <span class="stat-label">No Credit Card</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── BENEFITS ── -->
+  <section class="section" id="benefits">
+    <div class="section-inner">
+      <p class="section-eyebrow">WHY CHOOSE US</p>
+      <h2 class="section-heading">Benefits of AI German<br>Training with Us</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon bg-blue">🎙️</div>
+          <h3>Natural Voice Input</h3>
+          <p>Speak German directly into your microphone. Our AI transcribes and evaluates your speech instantly.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon bg-green">🧠</div>
+          <h3>Gemini AI Intelligence</h3>
+          <p>Powered by Google Gemini — the same AI powering enterprise language tools globally.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon bg-yellow">📝</div>
+          <h3>Instant Grammar Feedback</h3>
+          <p>Every mistake is caught and gently corrected with clear explanations, so you improve every session.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon bg-orange">⚡</div>
+          <h3>Zero Cost, Zero Server</h3>
+          <p>Completely client-side. Your voice never leaves your browser. No hidden fees, no subscriptions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURE BLOCK 1 ── -->
+  <section class="feature-split section" id="how-it-works">
+    <div class="section-inner split-layout">
+      <div class="split-visual left">
+        <div class="conversation-preview">
+          <div class="cp-header">
+            <span class="cp-dot red"></span><span class="cp-dot yellow"></span><span class="cp-dot green"></span>
+            <span class="cp-title">Live Session – Im Café</span>
+          </div>
+          <div class="cp-body">
+            <div class="cp-bubble tutor">
+              <div class="cp-avatar">☕</div>
+              <div class="cp-msg">
+                Hallo! Was darf ich Ihnen bringen?
+                <span class="cp-trans">Hello! What can I bring you?</span>
+              </div>
+            </div>
+            <div class="cp-bubble user">
+              <div class="cp-avatar">👤</div>
+              <div class="cp-msg">Ich möchte ein Kaffee, bitte.</div>
+            </div>
+            <div class="cp-tip">
+              <span>💡</span>
+              <span><strong>Tipp:</strong> Use "einen Kaffee" (masculine accusative) — not "ein Kaffee".</span>
+            </div>
+          </div>
+          <div class="cp-chips">
+            <span class="cp-chip">Haben Sie Kuchen?</span>
+            <span class="cp-chip">Zahlen, bitte!</span>
+          </div>
+        </div>
+      </div>
+      <div class="split-content right">
+        <p class="section-eyebrow">CUSTOMISE YOUR SCHEDULE</p>
+        <h2>Learn Through<br>Real Conversations</h2>
+        <p>Our AI roleplay system puts you inside real-world German situations. The tutor stays in character, asks follow-up questions, and adapts to your skill level — automatically. Choose a scenario and start speaking within seconds.</p>
+        <button class="btn-primary" id="feat1-cta">Get started</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FEATURE BLOCK 2 ── -->
+  <section class="feature-split section">
+    <div class="section-inner split-layout reverse">
+      <div class="split-content left">
+        <p class="section-eyebrow">POWERED BY GEMINI AI</p>
+        <h2>Smart Feedback on<br>Every Response</h2>
+        <p>After each message you send, our Gemini-powered tutor analyses your German for grammar, gender agreement, case usage, and vocabulary accuracy. You learn the right patterns naturally through real conversation — not rigid drills.</p>
+        <button class="btn-primary" id="feat2-cta">Get started</button>
+      </div>
+      <div class="split-visual right">
+        <div class="feedback-preview">
+          <div class="fp-row correct">
+            <span class="fp-icon">✅</span>
+            <div>
+              <div class="fp-label">What you said</div>
+              <div class="fp-text">"Ich nehme einen Espresso."</div>
+            </div>
+          </div>
+          <div class="fp-row tip">
+            <span class="fp-icon">💡</span>
+            <div>
+              <div class="fp-label">Grammar Tip</div>
+              <div class="fp-text">Perfect use of accusative case with "einen". Gut gemacht!</div>
+            </div>
+          </div>
+          <div class="fp-row vocab">
+            <span class="fp-icon">📘</span>
+            <div>
+              <div class="fp-label">New Vocabulary</div>
+              <div class="fp-text">zahlen = to pay | die Rechnung = the bill</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SCENARIOS ── -->
+  <section class="section section-grey" id="scenarios">
+    <div class="section-inner">
+      <p class="section-eyebrow">OUR TRAINING SCENARIOS</p>
+      <h2 class="section-heading">Practice German in Any Situation</h2>
+      <div class="scenarios-grid">
+        <div class="scenario-tile" id="sc-cafe">
+          <div class="scenario-tile-icon bg-blue-soft">☕</div>
+          <h4>Im Café</h4>
+          <p>Order coffee, ask about the menu, and settle the bill at a Berlin café.</p>
+          <span class="badge beginner">Beginner</span>
+        </div>
+        <div class="scenario-tile" id="sc-hotel">
+          <div class="scenario-tile-icon bg-green-soft">🔑</div>
+          <h4>Hotel Check-In</h4>
+          <p>Confirm reservations, get your room key, and ask about breakfast at a Munich hotel.</p>
+          <span class="badge intermediate">Intermediate</span>
+        </div>
+        <div class="scenario-tile" id="sc-directions">
+          <div class="scenario-tile-icon bg-yellow-soft">🗺️</div>
+          <h4>Wegbeschreibung</h4>
+          <p>Ask a Hamburg local for directions to the famous Elbphilharmonie concert hall.</p>
+          <span class="badge beginner">Beginner</span>
+        </div>
+        <div class="scenario-tile" id="sc-freetalk">
+          <div class="scenario-tile-icon bg-orange-soft">💬</div>
+          <h4>Freies Gespräch</h4>
+          <p>Chat freely about hobbies, weather, travel plans, and daily life with an AI partner.</p>
+          <span class="badge intermediate">Any Level</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section class="section" id="testimonials">
+    <div class="section-inner">
+      <p class="section-eyebrow">WHAT STUDENTS SAY</p>
+      <h2 class="section-heading">Loved by Language Learners</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"I've tried Duolingo and Babbel, but this feels so much more natural. Talking to the AI barista made me genuinely confident ordering coffee during my trip to Berlin!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div>
+              <div class="author-name">Arjun Mehta</div>
+              <div class="author-role">Software Engineer, Bangalore</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"The grammar tips are incredibly helpful. It corrected my German cases every single time without making me feel bad about it. Best free German tool I've found."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div>
+              <div class="author-name">Sofia Chen</div>
+              <div class="author-role">Student, University of Toronto</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"I practised checking into a hotel for 20 minutes before my Germany trip. When the actual moment came, I handled it perfectly. This app is a life-saver!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">M</div>
+            <div>
+              <div class="author-name">Marcus Williams</div>
+              <div class="author-role">Photographer, London</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FINAL CTA ── -->
+  <section class="cta-banner">
+    <div class="cta-banner-inner">
+      <div class="cta-deco cta-deco-left">〰️</div>
+      <div>
+        <h2>Ready to Speak German Today?</h2>
+        <p>No sign-up. No subscription. Just open the tutor and start talking.</p>
+        <button class="btn-primary btn-large" id="final-cta-btn">Launch Free AI Tutor →</button>
+      </div>
+      <div class="cta-deco cta-deco-right">△</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="logo">
+        <div class="logo-flag">🇩🇪</div>
+        <span class="logo-text">Lets Learn German</span>
+      </div>
+      <p class="footer-copy">© 2026 Lets Learn German. AI-powered language training, built for everyone.</p>
+    </div>
+  </footer>
+
+</div><!-- end #landing-page -->
+
+
+<!-- ============================================ -->
+<!--  TUTOR INTERFACE                             -->
+<!-- ============================================ -->
+<div id="app-interface" class="hidden">
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="app-header-left">
+      <button class="app-icon-btn" id="menu-toggle" title="Toggle sidebar">☰</button>
+      <button class="app-icon-btn" id="back-to-landing-btn" title="Back to home">←</button>
+      <div class="logo">
+        <div class="logo-flag">🇩🇪</div>
+        <span class="logo-text">Lets Learn German</span>
+      </div>
+    </div>
+    <div class="app-header-right">
+      <div class="api-badge">
+        <span class="api-dot"></span> AI Tutor Online
+      </div>
+      <button class="app-icon-btn" id="settings-btn" title="Settings">⚙️</button>
+    </div>
+  </header>
+
+  <!-- App body -->
+  <div class="app-body">
+    <!-- Overlay -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-section-title">Scenarios</p>
+      <div class="scenario-list" id="scenario-cards"></div>
+      <div class="vocab-panel">
+        <p class="sidebar-section-title">📚 Vocabulary</p>
+        <div class="vocab-list" id="vocab-list"></div>
+      </div>
+    </aside>
+
+    <!-- Main workspace -->
+    <main class="workspace">
+      <!-- Avatar strip -->
+      <div class="avatar-strip" id="avatar-section">
+        <div class="avatar-ring" id="avatar-ring">
+          <div class="avatar-inner" id="avatar-icon">☕</div>
+        </div>
+        <div class="avatar-meta">
+          <div class="avatar-name" id="avatar-name">Lukas (Barista)</div>
+          <div class="avatar-status" id="avatar-status">Click mic to speak</div>
+        </div>
+        <!-- wave bars -->
+        <div class="wave-bars">
+          <div class="wbar"></div><div class="wbar"></div><div class="wbar"></div>
+          <div class="wbar"></div><div class="wbar"></div><div class="wbar"></div>
+          <div class="wbar"></div><div class="wbar"></div>
+        </div>
+      </div>
+
+      <!-- Chat thread -->
+      <div class="chat-thread" id="dialogue-thread"></div>
+
+      <!-- Suggestions -->
+      <div class="suggestions-row" id="suggestion-bar"></div>
+
+      <!-- Input bar -->
+      <div class="input-bar">
+        <button class="mic-btn" id="mic-btn" title="Speak in German">🎙️</button>
+        <input type="text" class="chat-input" id="text-input" placeholder="Sprechen Sie oder tippen Sie auf Deutsch…" autocomplete="off">
+        <button class="send-btn" id="send-btn">→</button>
+      </div>
+      <div class="input-hint">Press Enter to send · Click mic to speak · Tap "👁️" on a reply to translate</div>
+    </main>
+
+    <!-- Settings drawer -->
+    <div class="settings-panel" id="settings-drawer">
+      <div class="settings-panel-header">
+        <span>Configuration</span>
+        <button class="app-icon-btn" id="close-settings">✕</button>
+      </div>
+      <div class="settings-group">
+        <label class="settings-label">German Voice (TTS)</label>
+        <select class="settings-select" id="voice-select">
+          <option value="">Default system voice</option>
+        </select>
+      </div>
+      <div class="settings-group">
+        <label class="settings-label">Speaking Speed: <span id="rate-val">0.9×</span></label>
+        <input type="range" min="0.5" max="1.5" step="0.1" value="0.9" id="rate-input" class="settings-slider">
+      </div>
+      <div class="settings-group">
+        <label class="settings-label">Override API Key</label>
+        <input type="password" class="settings-input" id="api-key-input" placeholder="Paste custom Gemini key…">
+        <button class="btn-primary settings-save-btn" id="save-api-key">Save Key</button>
+        <p class="settings-note">Stored locally in your browser. A default key is already active.</p>
+      </div>
+    </div>
+  </div><!-- end app-body -->
+
+  <!-- Hidden modal for key override (kept for compatibility) -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-card">
+      <div class="modal-icon">🔑</div>
+      <h3 class="modal-title">Override API Key</h3>
+      <p class="modal-desc">A key is already embedded. You can override it with your own Google Gemini key.</p>
+      <input type="password" class="settings-input" id="api-key-input-modal" placeholder="AIzaSy…">
+      <button class="btn-primary" id="setup-api-key">Save Override</button>
+      <div class="modal-footer">
+        <a href="https://aistudio.google.com/app/apikey" target="_blank">Get free key ↗</a>
+        <button id="close-modal">Use embedded key</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- end #app-interface -->
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
