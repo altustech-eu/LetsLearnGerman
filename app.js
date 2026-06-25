@@ -1,7 +1,7 @@
 import { scenarios } from './scenarios.js';
 
 // ─── EMBEDDED API KEY ──────────────────────────────────────
-const EMBEDDED_KEY = process.env.GEMINI_API_KEY;
+const EMBEDDED_KEY = import.meta.env.VITE_GEMINI_API_KEY || "";
 
 // ─── APPLICATION STATE ─────────────────────────────────────
 const state = {
